@@ -8,4 +8,4 @@ Cada app tiene su carpeta lanzadora con:
 
 | App | Enlace para compartir | Dirección en Vercel |
 |---|---|---|
-| Capital Strike | `https://hernanunez-bit.github.io/Apps/capital-strike/` | `https://capital-strike.vercel.app` |
+| Capital Strike | `https://hernanunez-bit.github.io/Apps/capital-strike/` | `https://games-others-capital-strike.vercel.app` |
