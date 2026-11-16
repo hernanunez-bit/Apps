@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mis apps</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;min-height:100vh;background:#0b0c10;color:#e8eaf0;font-family:Inter,system-ui,sans-serif;display:flex;flex-direction:column;align-items:center;padding:48px 20px;box-sizing:border-box}
+  h1{font-family:'Press Start 2P',monospace;font-size:20px;color:#ffd23a;margin:0 0 8px;text-align:center}
+  p.sub{color:#9aa3b2;margin:0 0 36px;text-align:center}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:20px;width:100%;max-width:720px}
+  a.app{display:flex;flex-direction:column;align-items:center;gap:12px;text-decoration:none;color:inherit;background:#151822;border:1px solid #232838;border-radius:18px;padding:18px 12px;transition:transform .15s,border-color .15s}
+  a.app:hover{transform:translateY(-3px);border-color:#ffd23a}
+  a.app img{width:96px;height:96px;border-radius:22px}
+  a.app span{font-weight:600;text-align:center}
+  a.app small{color:#9aa3b2;font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<h1>MIS APPS</h1>
+<p class="sub">Toca una app para abrirla. En el celular puedes agregarla a tu pantalla de inicio.</p>
+<div class="grid">
+  <a class="app" href="capital-strike/">
+    <img src="capital-strike/icon-192.png" alt="">
+    <span>Capital Strike</span>
+    <small>Beat 'em up 2D</small>
+  </a>
+</div>
+</body>
+</html>
